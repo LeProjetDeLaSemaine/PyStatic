@@ -28,8 +28,9 @@ def let(cls,name,value):
             globals()[name] = cls(value)
         return True
     else:
-        return False
         raise TypeError("type of {0} is not {1}".format(value,cls))
+        return False
+        
 
 
     
