@@ -47,8 +47,6 @@ def let(cls,name,value):
         raise TypeError("type of {0} is not {1}".format(value,cls))
         return False
         
-help(let)
-let(int,2)
-print(a)   
+ 
         
 
